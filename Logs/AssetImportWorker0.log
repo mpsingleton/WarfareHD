@@ -11,19 +11,19 @@ C:\Program Files\Unity\Hub\Editor\2020.3.30f1\Editor\Unity.exe
 -name
 AssetImportWorker0
 -projectPath
-D:/WarfareHD/New Unity Project
+D:/WarfareHD
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-54748
-Successfully changed project path to: D:/WarfareHD/New Unity Project
-D:/WarfareHD/New Unity Project
+61768
+Successfully changed project path to: D:/WarfareHD
+D:/WarfareHD
 Using Asset Import Pipeline V2.
-Refreshing native plugins compatible for Editor in 45.45 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 49.18 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2020.3.30f1 (1fb1bf06830e)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2020.3.30f1/Editor/Data/Resources/UnitySubsystems
-[Subsystems] Discovering subsystems at path D:/WarfareHD/New Unity Project/Assets
+[Subsystems] Discovering subsystems at path D:/WarfareHD/Assets
 GfxDevice: creating device client; threaded=0
 Direct3D:
     Version:  Direct3D 11.0 [level 11.1]
@@ -35,72 +35,72 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2020.3.30f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2020.3.30f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2020.3.30f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56488
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56824
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.30f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.002101 seconds.
+Registered in 0.001873 seconds.
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 49.93 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 50.12 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.581 seconds
+- Completed reload, in  0.551 seconds
 Domain Reload Profiling:
-	ReloadAssembly (581ms)
-		BeginReloadAssembly (63ms)
+	ReloadAssembly (551ms)
+		BeginReloadAssembly (61ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
 			CreateAndSetChildDomain (1ms)
-		EndReloadAssembly (449ms)
-			LoadAssemblies (61ms)
+		EndReloadAssembly (424ms)
+			LoadAssemblies (59ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (148ms)
+			SetupTypeCache (137ms)
 			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (30ms)
-			SetupLoadedEditorAssemblies (170ms)
+			RebuildScriptCaches (29ms)
+			SetupLoadedEditorAssemblies (164ms)
 				LogAssemblyErrors (0ms)
 				InitializePlatformSupportModulesInManaged (4ms)
 				SetLoadedEditorAssemblies (0ms)
 				RefreshPlugins (50ms)
 				BeforeProcessingInitializeOnLoad (8ms)
-				ProcessInitializeOnLoadAttributes (81ms)
-				ProcessInitializeOnLoadMethodAttributes (27ms)
+				ProcessInitializeOnLoadAttributes (76ms)
+				ProcessInitializeOnLoadMethodAttributes (26ms)
 				AfterProcessingInitializeOnLoad (0ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (0ms)
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.002386 seconds.
+Registered in 0.002340 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 47.97 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 55.46 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.102 seconds
+- Completed reload, in  1.105 seconds
 Domain Reload Profiling:
-	ReloadAssembly (1103ms)
-		BeginReloadAssembly (152ms)
+	ReloadAssembly (1106ms)
+		BeginReloadAssembly (143ms)
 			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (8ms)
+			DisableScriptedObjects (4ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (20ms)
-		EndReloadAssembly (893ms)
-			LoadAssemblies (93ms)
+			CreateAndSetChildDomain (18ms)
+		EndReloadAssembly (907ms)
+			LoadAssemblies (89ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (291ms)
+			SetupTypeCache (280ms)
 			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (60ms)
-			SetupLoadedEditorAssemblies (343ms)
+			RebuildScriptCaches (47ms)
+			SetupLoadedEditorAssemblies (375ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (3ms)
+				InitializePlatformSupportModulesInManaged (4ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (48ms)
-				BeforeProcessingInitializeOnLoad (70ms)
-				ProcessInitializeOnLoadAttributes (205ms)
+				RefreshPlugins (56ms)
+				BeforeProcessingInitializeOnLoad (95ms)
+				ProcessInitializeOnLoadAttributes (204ms)
 				ProcessInitializeOnLoadMethodAttributes (10ms)
 				AfterProcessingInitializeOnLoad (6ms)
 				EditorAssembliesLoaded (0ms)
@@ -109,15 +109,15 @@ Domain Reload Profiling:
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.10 seconds
-Refreshing native plugins compatible for Editor in 0.76 ms, found 2 plugins.
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.04 seconds
+Refreshing native plugins compatible for Editor in 0.79 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 2810 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 126.5 MB.
-System memory in use after: 126.7 MB.
+Unloading 2846 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 129.3 MB.
+System memory in use after: 129.5 MB.
 
-Unloading 17 unused Assets to reduce memory usage. Loaded Objects now: 3245.
-Total: 2.953900 ms (FindLiveObjects: 0.258600 ms CreateObjectMapping: 0.102400 ms MarkObjects: 2.528600 ms  DeleteObjects: 0.063600 ms)
+Unloading 17 unused Assets to reduce memory usage. Loaded Objects now: 3284.
+Total: 3.186100 ms (FindLiveObjects: 0.227100 ms CreateObjectMapping: 0.109000 ms MarkObjects: 2.773100 ms  DeleteObjects: 0.076200 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
@@ -131,163 +131,12 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  path: Assets/Models
-  artifactKey: Guid(2ab47955f0f505d4f817dc9d8544a55f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Models using Guid(2ab47955f0f505d4f817dc9d8544a55f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '529558ee15460443f46307612dd98d3b') in 0.009282 seconds 
+  path: Assets/UTS3ShaderFiles
+  artifactKey: Guid(4fd9c7efbe8096347b58197b3dd505c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UTS3ShaderFiles using Guid(4fd9c7efbe8096347b58197b3dd505c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e76f6363518238e7854639c0eabef6ed') in 0.009483 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 100.696859 seconds.
-  path: Assets/Textures
-  artifactKey: Guid(6ac5c50b84ac76245a72a82b6bca68c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Textures using Guid(6ac5c50b84ac76245a72a82b6bca68c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd1f6cad4df0f1b489e3fb5c626d43fe1') in 0.004961 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 9.024009 seconds.
-  path: Assets/Textures/Genshin Test
-  artifactKey: Guid(9d25d04b5023837488915e6c560663bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Textures/Genshin Test using Guid(9d25d04b5023837488915e6c560663bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '856b638fadfef05876b715edccf0502d') in 0.005456 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 39.462894 seconds.
-  path: Assets/Models/ジン.pmx
-  artifactKey: Guid(4aaa4726ead76854fa2ed79e8287484c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Models/ジン.pmx using Guid(4aaa4726ead76854fa2ed79e8287484c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cbc5619b005585a9cacba92f3f1d2a79') in 0.051540 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 13120.256517 seconds.
-  path: Assets/Textures/Genshin Test/服.jpg
-  artifactKey: Guid(217f75a86c7131a468a1ce0fc4aa788c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Textures/Genshin Test/服.jpg using Guid(217f75a86c7131a468a1ce0fc4aa788c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c6c27e5afe4b0358c2a3b70191e312eb') in 0.465784 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.448801 seconds.
-  path: Assets/Textures/Genshin Test/顔.jpg
-  artifactKey: Guid(974642f75d7fe1c4296b71c2f1e21b38) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Textures/Genshin Test/顔.jpg using Guid(974642f75d7fe1c4296b71c2f1e21b38) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e2bc1d7227d9b2a2a9637c537148730b') in 0.030705 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 1.662227 seconds.
-  path: Assets/Textures/Genshin Test/髪.jpg
-  artifactKey: Guid(f71c1a1c6f7cc2c40be39b93106c1d56) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Textures/Genshin Test/髪.jpg using Guid(f71c1a1c6f7cc2c40be39b93106c1d56) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '59bce5300ef2df71b8b3d8556e59055d') in 0.012516 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 1.305037 seconds.
-  path: Assets/Textures/Genshin Test/表情.png
-  artifactKey: Guid(004ab7bba3a660042a264400e6f7e401) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Textures/Genshin Test/表情.png using Guid(004ab7bba3a660042a264400e6f7e401) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f0eca73a9d2517e09e673e93117ea0c9') in 0.013969 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.617180 seconds.
-  path: Assets/Textures/Genshin Test/toon.png
-  artifactKey: Guid(790df5558ad972e40acb1270727e603d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Textures/Genshin Test/toon.png using Guid(790df5558ad972e40acb1270727e603d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '432c4a9da0d38e0998f17ff6206e4ada') in 0.011477 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.539840 seconds.
-  path: Assets/Textures/Genshin Test/mc3.png
-  artifactKey: Guid(f0304c3ac3af4834b8ad21704326bbfb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Textures/Genshin Test/mc3.png using Guid(f0304c3ac3af4834b8ad21704326bbfb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '289e40408a865b25ebc8980acea41bac') in 0.010325 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 24.508566 seconds.
-  path: Assets/GenshinShader
-  artifactKey: Guid(e7c393dc9d4160346b687c273f0027a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/GenshinShader using Guid(e7c393dc9d4160346b687c273f0027a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '219f21396d0133d28ec78c6a693ceaf9') in 0.004981 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 482.941003 seconds.
-  path: Assets/Models/Geist_Vertol_Light.obj
-  artifactKey: Guid(39dfc8806f9fd6a4cbaebb6a647b75e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Models/Geist_Vertol_Light.obj using Guid(39dfc8806f9fd6a4cbaebb6a647b75e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9101d21bfb1212bf21ee961b13b0c2f7') in 1.027640 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 7.224047 seconds.
-  path: Assets/Models/Geist_Vertol_Light.obj
-  artifactKey: Guid(39dfc8806f9fd6a4cbaebb6a647b75e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Models/Geist_Vertol_Light.obj using Guid(39dfc8806f9fd6a4cbaebb6a647b75e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7bac62573147890b896ec396d1d0e554') in 0.059339 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 49.513135 seconds.
-  path: Assets/Shaders
-  artifactKey: Guid(723b25d2be719304aad7d704c92ed2f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Shaders using Guid(723b25d2be719304aad7d704c92ed2f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4fd6acaa714b1c4bfd58056f81f2e49a') in 0.007785 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 16.795769 seconds.
-  path: Assets/Shaders/GenshinShader.shadergraph
-  artifactKey: Guid(92f7553bbc0e2a145b45cb02bff12b3c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Shaders/GenshinShader.shadergraph using Guid(92f7553bbc0e2a145b45cb02bff12b3c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e91b5e2ff7a815c808accc52686bceff') in 0.004790 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 1778.411801 seconds.
-  path: Assets/Models/Geist_Vertol_Light.mtl
-  artifactKey: Guid(e447ee70323b10f4ab01aef696af1815) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Models/Geist_Vertol_Light.mtl using Guid(e447ee70323b10f4ab01aef696af1815) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '02cba6b0a743ede2b94a9fd717361f6b') in 0.057318 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 200.889548 seconds.
-  path: Assets/Textures/Genshin Test/New Folder
-  artifactKey: Guid(94e8a2eaea633bf40bbfebe781a8e0f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Textures/Genshin Test/New Folder using Guid(94e8a2eaea633bf40bbfebe781a8e0f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '535a582ac4a6af1d77929f33c9fe550b') in 0.006803 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 9.693742 seconds.
-  path: Assets/Textures/Genshin Test/Kaya
-  artifactKey: Guid(4068e6a5f9bc3d147badb40df1c1d099) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Textures/Genshin Test/Kaya using Guid(4068e6a5f9bc3d147badb40df1c1d099) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '639cee3499cde8fa35affabb3b89a61b') in 0.006065 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 8.412998 seconds.
-  path: Assets/Textures/Genshin Test/Kaeya
-  artifactKey: Guid(4068e6a5f9bc3d147badb40df1c1d099) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Textures/Genshin Test/Kaeya using Guid(4068e6a5f9bc3d147badb40df1c1d099) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6ede2d7997b793ed03bd039d5cd142ab') in 0.005875 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 68.891429 seconds.
-  path: Assets/Textures/Genshin Test/Kaeya/髪.png
-  artifactKey: Guid(19b682b61ce9c3341994d7282e4c22b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Textures/Genshin Test/Kaeya/髪.png using Guid(19b682b61ce9c3341994d7282e4c22b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a211c5abb8e257b4e6310c4390147bf5') in 0.025754 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 10.502072 seconds.
-  path: Assets/Materials
-  artifactKey: Guid(d0234ba368eeec9418390da711bfdad0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Materials using Guid(d0234ba368eeec9418390da711bfdad0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dd1fccef896d48891410691dfde716e5') in 0.007137 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 3.731885 seconds.
-  path: Assets/Materials/New Folder
-  artifactKey: Guid(5951862b2240a4449bc5910629b599c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Materials/New Folder using Guid(5951862b2240a4449bc5910629b599c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bba43f82f849500b62ef9203904279a2') in 0.001459 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 87.746754 seconds.
-  path: Assets/Textures/Genshin Test/Kaeya/顔.jpg
-  artifactKey: Guid(40f485c17f52ea5479e11a45e342ca6a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Textures/Genshin Test/Kaeya/顔.jpg using Guid(40f485c17f52ea5479e11a45e342ca6a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b15645117bad48375f7e6801135b0148') in 0.018458 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 3.405044 seconds.
-  path: Assets/Textures/Genshin Test/Kaeya/表情.png
-  artifactKey: Guid(17fffd715a3fc994183778e570400a44) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Textures/Genshin Test/Kaeya/表情.png using Guid(17fffd715a3fc994183778e570400a44) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cfa77ca3767c9fa6111f1bf16bdedc58') in 0.012196 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 3.039035 seconds.
-  path: Assets/Textures/Genshin Test/Kaeya/服.jpg
-  artifactKey: Guid(f80c1ee09aa127c4089fc720c192d7c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Textures/Genshin Test/Kaeya/服.jpg using Guid(f80c1ee09aa127c4089fc720c192d7c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c6148c3c1e50425594d128fe7b6dd615') in 0.013480 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 3.882161 seconds.
-  path: Assets/Textures/Genshin Test/Kaeya/toon.png
-  artifactKey: Guid(0cd618e389f8fe047bb608169d5e775b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Textures/Genshin Test/Kaeya/toon.png using Guid(0cd618e389f8fe047bb608169d5e775b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4490e0f2c2cfca97647acfa67a6a4e3e') in 0.011410 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 2.757006 seconds.
-  path: Assets/Textures/Genshin Test/Kaeya/mc3.png
-  artifactKey: Guid(23d3250a6769f0e4dae80f0450ab4af8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Textures/Genshin Test/Kaeya/mc3.png using Guid(23d3250a6769f0e4dae80f0450ab4af8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4a271b2e22d552325628f4ae08b8fd9c') in 0.011429 seconds 
-AssetImportWorkerClient::OnTransportError - code=2 error=End of file
+  Time since last request: 0.000279 seconds.
+  path: Assets/UTS3DemoScenes
+  artifactKey: Guid(781896c934cff2747b33477d197849af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UTS3DemoScenes using Guid(781896c934cff2747b33477d197849af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fb0190c799fa46b9bd42257ee5a352b2') in 0.005981 seconds 
